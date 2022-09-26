@@ -1,8 +1,0 @@
-{
-    "C_Cpp.errorSquiggles": "Disabled",
-    "files.associations": {
-        "array": "cpp",
-        "string": "cpp",
-        "type_traits": "cpp"
-    }
-}
