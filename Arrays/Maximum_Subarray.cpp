@@ -6,19 +6,19 @@ using namespace std;
 
 int main()
 {
-    vector<int> v;
+    vector<int> v{1, 2, 3, 4};
     int a, maxsum = INT_FAST16_MIN;
     vector<int>::iterator it;
 
-    cout << "Enter the array: ";
-    for (it = v.begin();it!=v.end(); it++)
-    {
-        cin >> a;
-        if (a == '\n')
-            break;
-        v.push_back(a);
-        
-    }
+    // cout << "Enter the array: ";
+    // for (it = v.begin();it!=v.end(); it++)
+    // {
+    //     cin >> a;
+    //     if (a == '\n')
+    //         break;
+    //     v.push_back(a);
+
+    // }
 
     int size = v.size();
 
